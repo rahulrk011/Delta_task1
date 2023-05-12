@@ -1,0 +1,106 @@
+
+.Area{
+    display: grid;
+    background-color: rgb(202, 238, 226);
+    width:55vmin;
+    height: 55vmin;
+    border: 20px solid black;
+    margin:0 auto ;
+    margin-top: auto 150px ;
+    grid-template-columns: repeat(20,1fr);
+    grid-template-rows: repeat(20,1fr);
+
+}
+    
+.snake{
+    background-color: yellow;
+    border: 0.3vmin solid rgb(14, 196, 18);
+}
+
+.food{
+    
+    border:  2px solid black;
+}
+
+.foodBlocks{
+    display : flex;
+    width:50vmin;
+    height:5vmin;
+    margin:0 auto;
+    margin-top:2px;
+    padding:10px;
+    flex-direction: row;
+}
+.color{
+    width:17.5vmin;
+    border: 6px solid black;
+}
+
+.info{
+    margin:0 auto;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    display:flex;
+    width:80vmin;
+    height:10vmin;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-size: x-large;
+    font-weight: bold;
+}
+.arrows{
+    display:flex;
+    width:50vmin;
+    height:50vmin;
+    justify-content: center;
+    margin: 0 auto;
+}
+.img{
+    object-fit: cover;
+}
+.page{
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 20px;
+}
+
+.up{
+
+    margin-top:10px;
+    height: 50px;
+    width:80px;
+    object-fit: cover;
+}
+.lr{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.left{
+
+    margin-right: 90px;
+    height: 80px;
+    width:50px;
+    object-fit: cover;
+    
+}
+.right{
+    height: 80px;
+    width:50px;
+    object-fit: cover;
+}
+.down{
+
+    height: 50px;
+    width:80px;
+    object-fit: cover;
+}
+body{
+    justify-content: center;
+
+    align-items: center;
+    height:90%;
+    overflow:hidden;
+}
