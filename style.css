@@ -2,8 +2,8 @@
 .Area{
     display: grid;
     background-color: rgb(202, 238, 226);
-    width:55vmin;
-    height: 55vmin;
+    width:50vmin;
+    height: 50vmin;
     border: 20px solid black;
     margin:0 auto ;
     margin-top: auto 150px ;
@@ -28,7 +28,7 @@
     height:5vmin;
     margin:0 auto;
     margin-top:2px;
-    padding:10px;
+    padding:3px;
     flex-direction: row;
 }
 .color{
@@ -42,7 +42,7 @@
     margin-bottom: 2px;
     display:flex;
     width:80vmin;
-    height:10vmin;
+    height:5vmin;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
